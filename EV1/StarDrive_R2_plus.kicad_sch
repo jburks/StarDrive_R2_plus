@@ -11509,7 +11509,7 @@
 	)
 	(text "TODO: This part is difficult to source,\nlook for alternate."
 		(exclude_from_sim no)
-		(at 83.058 198.12 0)
+		(at 82.55 266.7 0)
 		(effects
 			(font
 				(size 1.5 1.5)
