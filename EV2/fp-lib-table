@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ZZZ_ProjectLibrary")(type "KiCad")(uri "${KIPRJMOD}/../parts/footprints/ZZZ_ProjectLibrary.pretty")(options "")(descr ""))
+)
