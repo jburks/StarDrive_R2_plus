@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "StarDrive_R2_symsch")(type "KiCad")(uri "${KIPRJMOD}/../parts/StarDrive_R2_symsch.kicad_sym")(options "")(descr ""))
+)
