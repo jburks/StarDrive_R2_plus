@@ -6689,373 +6689,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Pack04"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "RN"
-				(at -7.62 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Pack04"
-				(at 5.08 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 6.985 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "4 resistor network, parallel topology"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R network parallel topology isolated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Pack04_0_1"
-				(rectangle
-					(start -6.35 -2.413)
-					(end 3.81 2.413)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -5.715 1.905)
-					(end -4.445 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.175 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.635 1.905)
-					(end 0.635 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 1.905) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.905) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.905) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.905) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.905 1.905)
-					(end 3.175 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Pack04_1_1"
-				(pin passive line
-					(at -5.08 -5.08 90)
-					(length 2.54)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -9672,6 +9305,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 27.94) (xy 203.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c78dd4c-dd9e-49a6-a9b4-c5e75ca6eec6")
+	)
+	(wire
+		(pts
 			(xy 335.28 120.65) (xy 335.28 124.46)
 		)
 		(stroke
@@ -9742,6 +9385,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 27.94) (xy 190.5 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17bb8699-9b4c-4089-9c84-65f8cec991a4")
+	)
+	(wire
+		(pts
 			(xy 325.12 214.63) (xy 325.12 215.9)
 		)
 		(stroke
@@ -9779,6 +9432,16 @@
 			(type default)
 		)
 		(uuid "1c7b3776-825a-413a-a576-6def45407f97")
+	)
+	(wire
+		(pts
+			(xy 201.93 33.02) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0fd4b2-cd92-4fff-8c2d-b12d584e46a6")
 	)
 	(wire
 		(pts
@@ -9869,6 +9532,16 @@
 			(type default)
 		)
 		(uuid "25ccc2c2-5d1f-43e7-8770-03bd02cb37e8")
+	)
+	(wire
+		(pts
+			(xy 210.82 30.48) (xy 212.09 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2755c00e-95cf-499b-b6e8-5d52f1a73e35")
 	)
 	(wire
 		(pts
@@ -9982,6 +9655,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 30.48) (xy 181.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326ca2a7-aec6-4911-98a2-2e2a130e8edd")
+	)
+	(wire
+		(pts
 			(xy 359.41 214.63) (xy 359.41 215.9)
 		)
 		(stroke
@@ -9999,6 +9682,16 @@
 			(type default)
 		)
 		(uuid "3518e265-0cc4-4b95-aa49-5c501d6cbb6b")
+	)
+	(wire
+		(pts
+			(xy 189.23 33.02) (xy 190.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3544f167-6120-45b2-a830-6b53757399a7")
 	)
 	(wire
 		(pts
@@ -10092,6 +9785,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 25.4) (xy 181.61 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb40e9a-cd6a-4543-b114-59300c25bb66")
+	)
+	(wire
+		(pts
 			(xy 134.62 91.44) (xy 137.16 91.44)
 		)
 		(stroke
@@ -10159,6 +9862,16 @@
 			(type default)
 		)
 		(uuid "47fc55ed-6221-4c8f-956e-4e74f6a01b99")
+	)
+	(wire
+		(pts
+			(xy 146.05 27.94) (xy 147.32 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f1e514-e1e0-47e2-af2e-927a0cfb11a5")
 	)
 	(wire
 		(pts
@@ -10232,6 +9945,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 33.02) (xy 168.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5020c65c-5dcc-4ca5-8eeb-bf0d06ad17b3")
+	)
+	(wire
+		(pts
 			(xy 143.51 236.22) (xy 143.51 238.76)
 		)
 		(stroke
@@ -10249,6 +9972,16 @@
 			(type default)
 		)
 		(uuid "50ff9425-0c1a-4b19-9911-71ee97d673e0")
+	)
+	(wire
+		(pts
+			(xy 201.93 25.4) (xy 203.2 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5125be93-1a10-4f5c-9aeb-6e18490564df")
 	)
 	(wire
 		(pts
@@ -10322,6 +10055,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 27.94) (xy 212.09 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e11ab9-6e46-4b53-bc6c-db8abee8bbaa")
+	)
+	(wire
+		(pts
 			(xy 287.02 120.65) (xy 264.16 120.65)
 		)
 		(stroke
@@ -10392,6 +10135,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 25.4) (xy 147.32 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "600a870c-f632-452f-9767-1a149ee564e1")
+	)
+	(wire
+		(pts
 			(xy 359.41 215.9) (xy 359.41 217.17)
 		)
 		(stroke
@@ -10449,6 +10202,16 @@
 			(type default)
 		)
 		(uuid "6ad8ec0a-fa94-4368-8dad-dd16cdf95eaf")
+	)
+	(wire
+		(pts
+			(xy 158.75 25.4) (xy 160.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3bf2d6-5bda-4b64-9374-869eab7efca7")
 	)
 	(wire
 		(pts
@@ -10539,6 +10302,16 @@
 			(type default)
 		)
 		(uuid "74cbdd44-64bf-48cc-b66c-aff868b08ef4")
+	)
+	(wire
+		(pts
+			(xy 167.64 25.4) (xy 168.91 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d384b3-3b87-4491-abd7-97b96d1c40ac")
 	)
 	(wire
 		(pts
@@ -10732,6 +10505,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 30.48) (xy 190.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3d8e5d-3183-44c5-8f59-5de0b35f523f")
+	)
+	(wire
+		(pts
 			(xy 78.74 242.57) (xy 78.74 240.03)
 		)
 		(stroke
@@ -10739,6 +10522,16 @@
 			(type default)
 		)
 		(uuid "8fc46850-4dfb-4230-9b0e-608b5dca4c75")
+	)
+	(wire
+		(pts
+			(xy 137.16 30.48) (xy 138.43 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917632da-e625-4699-85e2-a851faafae22")
 	)
 	(wire
 		(pts
@@ -10802,6 +10595,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 30.48) (xy 168.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a221ca9-a4fd-45ff-a765-0bedd294aa5b")
+	)
+	(wire
+		(pts
 			(xy 298.45 242.57) (xy 298.45 232.41)
 		)
 		(stroke
@@ -10809,6 +10612,16 @@
 			(type default)
 		)
 		(uuid "9a5f3760-879b-4bfa-b1f8-cb0e9a65257b")
+	)
+	(wire
+		(pts
+			(xy 146.05 30.48) (xy 147.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cbb42ba-3ba5-4f41-819a-133c9c961d59")
 	)
 	(wire
 		(pts
@@ -10869,6 +10682,16 @@
 			(type default)
 		)
 		(uuid "9f648811-732a-4858-af5e-bd2e2fe2a2b7")
+	)
+	(wire
+		(pts
+			(xy 146.05 33.02) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f926080-5799-4683-a053-c733c669c4aa")
 	)
 	(wire
 		(pts
@@ -10939,6 +10762,16 @@
 			(type default)
 		)
 		(uuid "a850d8da-c955-4762-8b77-bddd17e742bb")
+	)
+	(wire
+		(pts
+			(xy 189.23 25.4) (xy 190.5 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98b578a-777c-4acc-8c6d-e1b8ee4016b5")
 	)
 	(wire
 		(pts
@@ -11062,6 +10895,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 25.4) (xy 212.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b737f83d-9c3e-4034-b4bc-302189088fbc")
+	)
+	(wire
+		(pts
 			(xy 368.3 215.9) (xy 368.3 226.06)
 		)
 		(stroke
@@ -11162,6 +11005,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 27.94) (xy 138.43 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff5e867-960c-42bc-9a43-ac03213fb502")
+	)
+	(wire
+		(pts
 			(xy 55.88 212.09) (xy 55.88 218.44)
 		)
 		(stroke
@@ -11232,6 +11085,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 33.02) (xy 160.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69d0dd9-bb2c-4b70-88f5-8d82ca45f309")
+	)
+	(wire
+		(pts
 			(xy 44.45 182.88) (xy 45.72 182.88)
 		)
 		(stroke
@@ -11259,6 +11122,16 @@
 			(type default)
 		)
 		(uuid "c8db9e62-1c9f-4211-867a-558c331c3d36")
+	)
+	(wire
+		(pts
+			(xy 201.93 30.48) (xy 203.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0de502-bc0c-4f38-b202-92e2976d599d")
 	)
 	(wire
 		(pts
@@ -11342,6 +11215,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 33.02) (xy 212.09 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdfeaf78-21a9-4517-b2bb-8eadb1755db0")
+	)
+	(wire
+		(pts
 			(xy 341.63 215.9) (xy 341.63 217.17)
 		)
 		(stroke
@@ -11349,6 +11232,16 @@
 			(type default)
 		)
 		(uuid "cf95e876-0f4c-4e47-97e4-79ae534da6d1")
+	)
+	(wire
+		(pts
+			(xy 167.64 27.94) (xy 168.91 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07b0fc8-084e-48dc-a35d-e9f371fe4b97")
 	)
 	(wire
 		(pts
@@ -11389,6 +11282,16 @@
 			(type default)
 		)
 		(uuid "d3f0d27a-5e4b-41d0-97c8-389e0a5f935e")
+	)
+	(wire
+		(pts
+			(xy 137.16 33.02) (xy 138.43 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ec037f-2f7b-4469-aaa0-1d6fe199dea9")
 	)
 	(wire
 		(pts
@@ -11452,6 +11355,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 27.94) (xy 160.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4024d2-11ed-4421-b546-79ca6bef474f")
+	)
+	(wire
+		(pts
 			(xy 74.93 64.77) (xy 74.93 62.23)
 		)
 		(stroke
@@ -11512,6 +11425,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 33.02) (xy 181.61 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e287a5d6-edd2-4e5e-8141-adf3d1da524c")
+	)
+	(wire
+		(pts
 			(xy 270.51 54.61) (xy 278.13 54.61)
 		)
 		(stroke
@@ -11542,6 +11465,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 35.56) (xy 160.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68f85bd-c734-4f65-adaf-99eec4ae1209")
+	)
+	(wire
+		(pts
 			(xy 306.07 241.3) (xy 306.07 242.57)
 		)
 		(stroke
@@ -11559,6 +11492,16 @@
 			(type default)
 		)
 		(uuid "e7712e78-c742-42db-bcfa-f1af16fc98f0")
+	)
+	(wire
+		(pts
+			(xy 180.34 27.94) (xy 181.61 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7867148-dfbb-43a8-a7d0-4fbf188d988a")
 	)
 	(wire
 		(pts
@@ -11672,6 +11615,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 30.48) (xy 160.02 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ee5a85-c99c-43e0-ae09-0c7ca7e80d67")
+	)
+	(wire
+		(pts
 			(xy 240.03 120.65) (xy 264.16 120.65)
 		)
 		(stroke
@@ -11769,6 +11722,16 @@
 			(type default)
 		)
 		(uuid "fa1152d5-0fcc-47e8-9b4d-0158d78f218b")
+	)
+	(wire
+		(pts
+			(xy 137.16 25.4) (xy 138.43 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5365ab-b5a4-4bc2-b5fd-f792c0ade220")
 	)
 	(wire
 		(pts
@@ -13959,7 +13922,7 @@
 		(uuid "fa8915bf-395e-4f87-b39a-3d914dac2619")
 	)
 	(label "DBP"
-		(at 160.02 35.56 180)
+		(at 158.75 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14266,6 +14229,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 142.24 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ad609f2-58e9-449f-aadb-c6ac4918d96f")
+		(property "Reference" "R3"
+			(at 136.906 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 144.272 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 142.494 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 142.24 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "118ecbb1-2a14-4cf9-bbb7-a89581c88c41")
+		)
+		(pin "2"
+			(uuid "fa58d0bf-99fa-43e5-94ee-6bb83f80cf17")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Variable")
 		(at 40.64 222.25 0)
 		(unit 1)
@@ -14338,6 +14370,75 @@
 			(project ""
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c87c2e1-9b80-483b-9528-6d39c64948fc")
+		(property "Reference" "R13"
+			(at 180.086 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 187.452 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.674 26.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0c2bb07-c1f1-4442-8740-f01d6b80139b")
+		)
+		(pin "2"
+			(uuid "2c8b2208-f114-4abc-b577-9cc08ab7af33")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14438,7 +14539,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 368.3 228.6 0)
 			(effects
 				(font
@@ -14641,7 +14742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 289.814 128.524 90)
 			(effects
 				(font
@@ -14711,7 +14812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 74.676 150.114 90)
 			(effects
 				(font
@@ -14814,6 +14915,75 @@
 			(project "StarDrive_R2_plus"
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 207.01 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14b2c897-5296-4d72-9607-320b27fe6d0e")
+		(property "Reference" "R18"
+			(at 201.676 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 209.042 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.264 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dd7a32c-6c81-4e42-922e-32db808cfea6")
+		)
+		(pin "2"
+			(uuid "b46fa60a-d99d-423c-9271-11d56d71c4d5")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15124,6 +15294,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 142.24 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c8a4d28-4f95-4805-92c9-6060351ada7c")
+		(property "Reference" "R5"
+			(at 136.906 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 144.272 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 142.494 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 142.24 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17bc3418-03d1-49c0-97ff-c2ec422d8c82")
+		)
+		(pin "2"
+			(uuid "33f31d03-162f-4cdd-a7b6-79666752168d")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cc47a3a-b2df-40c3-a35a-caff17c1677d")
+		(property "Reference" "R10"
+			(at 158.496 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 165.862 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 164.084 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c652d89-7b9a-4510-8ce0-8fd604347bab")
+		)
+		(pin "2"
+			(uuid "050a84f3-bbe1-4120-82cc-4c4ba492764d")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
 		(at 48.26 58.42 0)
 		(unit 1)
@@ -15249,7 +15557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 334.01 228.6 0)
 			(effects
 				(font
@@ -15385,7 +15693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 317.5 228.6 0)
 			(effects
 				(font
@@ -15599,6 +15907,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 142.24 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "270b1d01-88fb-4b21-abe6-ea3975fb3e41")
+		(property "Reference" "R6"
+			(at 136.906 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 144.272 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 142.494 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 142.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75afdc7a-1511-4616-9df7-e2902c0f452d")
+		)
+		(pin "2"
+			(uuid "98aa5768-664a-4915-aa5c-4a194a1c180c")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 29.21 31.75 0)
 		(mirror x)
 		(unit 1)
@@ -15626,7 +16003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 30.226 31.496 90)
 			(effects
 				(font
@@ -15869,6 +16246,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 207.01 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "292a7049-e6b8-4bb5-a2ff-cccb2825a18b")
+		(property "Reference" "R17"
+			(at 201.676 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 209.042 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.264 26.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 207.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d8cc74b-cc39-4154-8f83-4812e0bcf709")
+		)
+		(pin "2"
+			(uuid "47908d55-9e14-454d-b8af-40cedb313180")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 44.45 163.83 0)
 		(unit 1)
@@ -15928,91 +16374,6 @@
 			(project "StarDrive_R2_plus"
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 163.83 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a351cf3-b1d3-4af8-bce1-861b13af8039")
-		(property "Reference" "RN5"
-			(at 163.83 22.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAY16-10R0F4LF"
-			(at 163.83 19.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 163.83 37.465 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology"
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "67475046-2356-43db-969f-f7b02b20012a")
-		)
-		(pin "8"
-			(uuid "43fbc188-15b4-4e11-b593-d24f2ffc4f20")
-		)
-		(pin "1"
-			(uuid "7e09059d-be09-4c99-8d58-db9c517264bc")
-		)
-		(pin "5"
-			(uuid "1248c183-6d4b-4990-a97f-6530bbbf28ec")
-		)
-		(pin "4"
-			(uuid "5178d22c-407e-4c3b-af15-559a38adcda9")
-		)
-		(pin "7"
-			(uuid "70c58de0-f429-4fef-80d2-b3e3e3d539e2")
-		)
-		(pin "2"
-			(uuid "573734f5-73c5-45d2-8b9d-0457f85d0669")
-		)
-		(pin "6"
-			(uuid "88e30704-54cb-471a-b61c-1215f2028820")
-		)
-		(instances
-			(project "StarDrive_R2_plus"
-				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
-					(reference "RN5")
 					(unit 1)
 				)
 			)
@@ -16510,7 +16871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 64.77 222.885 0)
 			(effects
 				(font
@@ -16778,7 +17139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 298.45 229.87 0)
 			(effects
 				(font
@@ -17398,7 +17759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 334.264 128.524 90)
 			(effects
 				(font
@@ -17435,6 +17796,75 @@
 			(project "StarDrive_R2_plus"
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51e4682d-46d0-476b-ab39-5d904e7a557d")
+		(property "Reference" "R8"
+			(at 158.496 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 165.862 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 164.084 26.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1448e93-77f1-496a-bebb-d1124070b3be")
+		)
+		(pin "2"
+			(uuid "366b07e9-64e4-48a3-b620-c289ea81cfcc")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17801,7 +18231,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 207.264 34.544 90)
 			(effects
 				(font
@@ -18290,7 +18720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 351.79 228.6 0)
 			(effects
 				(font
@@ -18773,6 +19203,75 @@
 			(project ""
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84b424a9-d0fd-4839-9206-e4553aada3bf")
+		(property "Reference" "R7"
+			(at 158.496 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 165.862 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 164.084 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd0af429-12ed-47eb-bc4e-c204daff53de")
+		)
+		(pin "2"
+			(uuid "6e47ca59-bf06-40f0-b5df-781fc758de55")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -19839,7 +20338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 241.046 138.684 90)
 			(effects
 				(font
@@ -20152,6 +20651,75 @@
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "U5")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 207.01 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a51b24db-2a19-4286-9a80-1ae99c1689bc")
+		(property "Reference" "R19"
+			(at 201.676 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 209.042 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.264 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 207.01 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd96d13a-f479-4d35-a44a-8a31adb3a687")
+		)
+		(pin "2"
+			(uuid "e4e8dc1c-7ea8-4848-af8b-71dbed78bf55")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R19")
+					(unit 1)
 				)
 			)
 		)
@@ -20718,6 +21286,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 207.01 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3a3cae7-d438-4f3d-85f4-c28735804192")
+		(property "Reference" "R16"
+			(at 201.676 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 209.042 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.264 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af91cc67-5cde-4336-a858-4fdd3600400b")
+		)
+		(pin "2"
+			(uuid "dccf8846-2e68-4e74-907b-7b21f0986e94")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 283.21 41.91 0)
 		(unit 1)
@@ -21090,92 +21727,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 207.01 27.94 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc1da859-303f-4e9b-b5e2-16daa547dc79")
-		(property "Reference" "RN7"
-			(at 207.01 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAY16-10R0F4LF"
-			(at 207.01 19.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 207.01 20.955 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology"
-			(at 207.01 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "180e2af7-2292-4654-a2bf-55288f2da4c8")
-		)
-		(pin "8"
-			(uuid "a9ada740-2f6b-4fc9-8dda-c35cc272a639")
-		)
-		(pin "1"
-			(uuid "0166b78c-12f1-46a6-a50b-090f5652e8b6")
-		)
-		(pin "5"
-			(uuid "96a3110f-dd4b-4489-ad70-c6e0984d2c18")
-		)
-		(pin "4"
-			(uuid "04d207ba-0814-47cd-9cd4-f44685657aa4")
-		)
-		(pin "7"
-			(uuid "bb581ec9-65dd-4e33-a327-51d4a7347baa")
-		)
-		(pin "2"
-			(uuid "e924397f-6024-4116-8acd-735fa7c3ff11")
-		)
-		(pin "6"
-			(uuid "57ccd9e6-5301-488c-afb7-f888c7907583")
-		)
-		(instances
-			(project "StarDrive_R2_plus"
-				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
-					(reference "RN7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC04")
 		(at 40.64 127 0)
 		(mirror y)
@@ -21394,7 +21945,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 60.325 207.01 0)
 			(effects
 				(font
@@ -21449,6 +22000,75 @@
 			(project "StarDrive_R2_plus"
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 163.83 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4b82247-8ae7-46d6-96ac-fe8f57c5e517")
+		(property "Reference" "R9"
+			(at 158.496 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 165.862 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 164.084 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "217cb6e2-d082-473f-9042-02922d76f823")
+		)
+		(pin "2"
+			(uuid "eff7e823-9549-4d4a-8f8f-e8b2390c0c2e")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -21522,6 +22142,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 185.42 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db9f4e1b-c275-420c-9dd2-2d1b7ff511dc")
+		(property "Reference" "R14"
+			(at 180.086 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 187.452 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.674 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e2f48af-4223-4605-9dc0-341d61068478")
+		)
+		(pin "2"
+			(uuid "f080ca75-f579-41eb-9e11-0a6f3758dca2")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 163.83 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21547,7 +22236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 164.084 34.544 90)
 			(effects
 				(font
@@ -21691,177 +22380,6 @@
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "U7")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 185.42 27.94 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4d03655-a1ac-4bf2-b934-5a71a2f56ea3")
-		(property "Reference" "RN6"
-			(at 185.674 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAY16-10R0F4LF"
-			(at 185.42 19.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 185.42 20.955 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology"
-			(at 185.42 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a7e45ee8-c6d6-4ac7-b8bf-feecc809b797")
-		)
-		(pin "8"
-			(uuid "9d7b3561-d985-4ede-9a6f-a583ed1e53dc")
-		)
-		(pin "1"
-			(uuid "57a85fc0-4b17-4552-bac5-189994e560f4")
-		)
-		(pin "5"
-			(uuid "d646c350-3727-4d89-ab70-8e102175247d")
-		)
-		(pin "4"
-			(uuid "542a1a18-d82a-42de-a4f1-ba5c5eb4108c")
-		)
-		(pin "7"
-			(uuid "90b612d9-b6ed-4d68-9140-7b64457d107e")
-		)
-		(pin "2"
-			(uuid "be42d960-0b59-4b1e-bf73-9b69ce0406d1")
-		)
-		(pin "6"
-			(uuid "c6600cd5-52b8-4f9a-a44b-6fb29baeb7d8")
-		)
-		(instances
-			(project "StarDrive_R2_plus"
-				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
-					(reference "RN6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Pack04")
-		(at 142.24 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e66d1fe0-4aeb-403c-85e0-727689b5dec5")
-		(property "Reference" "RN4"
-			(at 142.24 22.098 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAY16-10R0F4LF"
-			(at 142.24 19.558 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 142.24 37.465 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology"
-			(at 142.24 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e8db4830-e3d2-4f34-bf96-7dca4c42efb8")
-		)
-		(pin "8"
-			(uuid "136174e4-61ff-4611-8ca8-1a332e48cf9e")
-		)
-		(pin "1"
-			(uuid "860d1e60-547d-4bd4-8abf-94316c2b6406")
-		)
-		(pin "5"
-			(uuid "84f6a38e-80c8-407f-a54e-cbd2957bd5fe")
-		)
-		(pin "4"
-			(uuid "3dcb8b99-3f82-4a90-a156-fbccbb5c648a")
-		)
-		(pin "7"
-			(uuid "aa960279-b9c9-4054-89b6-6794f4ca14be")
-		)
-		(pin "2"
-			(uuid "8930a9ed-9af8-4fc0-b495-4319b6dd57a6")
-		)
-		(pin "6"
-			(uuid "cda61b24-c5c5-40fb-9efa-a4d52befe163")
-		)
-		(instances
-			(project ""
-				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
-					(reference "RN4")
-					(unit 1)
 				)
 			)
 		)
@@ -22062,7 +22580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 46.99 212.09 0)
 			(effects
 				(font
@@ -22300,7 +22818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 255.27 118.11 0)
 			(effects
 				(font
@@ -22501,6 +23019,75 @@
 			(project ""
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4c38a2b-1c14-4a4d-a2e4-5b7e0a3d4700")
+		(property "Reference" "R15"
+			(at 180.086 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 187.452 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.674 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aaecbbd-25d2-46d6-b430-fc1634c21e37")
+		)
+		(pin "2"
+			(uuid "88b02454-bad8-4b0a-b209-1edf04a56c9f")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -22776,6 +23363,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7898cdc-5bdb-4fa0-8dcf-fa89398c5a1c")
+		(property "Reference" "R12"
+			(at 180.086 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 187.452 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 185.674 24.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f4b00f-3664-4004-92a8-007b43d0b8a0")
+		)
+		(pin "2"
+			(uuid "2d446c55-f9f4-48d4-9f30-fbde8fdef36b")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HCT74")
 		(at 44.45 148.59 0)
 		(unit 2)
@@ -22908,7 +23564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 288.036 128.524 90)
 			(effects
 				(font
@@ -22945,6 +23601,75 @@
 			(project "StarDrive_R2_plus"
 				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 142.24 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd78506b-ad8e-43e3-abc2-7f0cf42947dc")
+		(property "Reference" "R4"
+			(at 136.906 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 144.272 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 142.494 26.924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 142.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b007f74-91b6-4092-b77a-8678eba40feb")
+		)
+		(pin "2"
+			(uuid "302160cd-1e87-4400-9526-0b56c00fddb8")
+		)
+		(instances
+			(project "StarDrive_R2_plus"
+				(path "/af2c0e68-430e-4c27-9fc2-e04a89ff2694"
+					(reference "R4")
 					(unit 1)
 				)
 			)
